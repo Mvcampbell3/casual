@@ -7,6 +7,11 @@ header{
 
 nav ul{
   list-style: none;
+  display: flex;
+}
+
+nav ul li:nth-child(1){
+  margin-right: 30px;
 }
 
 .navLinks{
@@ -36,4 +41,10 @@ nav ul{
 .brand{
   font-size: 26px;
   color: white;
+}
+
+@media (max-width: 1000px) {
+  header{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
