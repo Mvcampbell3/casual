@@ -1,0 +1,39 @@
+header{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; 
+  height: 75px;
+  overflow: hidden;
+}
+
+nav ul{
+  list-style: none;
+}
+
+.navLinks{
+  background-color: #333;
+  
+}
+
+.main-nav-link{
+  color: white;
+}
+
+.empty{
+  background-color: black;
+}
+
+.brandArea{
+  background-color: darkred;
+}
+
+.headerDiv{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center center;
+}
+
+.brand{
+  font-size: 26px;
+  color: white;
+}
