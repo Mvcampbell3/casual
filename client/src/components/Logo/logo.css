@@ -1,0 +1,38 @@
+.logoOutside{
+  width: 200px;
+  height: 75px;
+  display: grid;
+  place-items: center center;
+  background-color: darkred;
+}
+
+.logo{
+  width: 180px;
+  height: 55px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-title{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: fit-content;
+  font-size: 18px;
+  position: relative;
+}
+
+.first{
+  align-self: flex-start;
+}
+
+.second{
+  align-self: center;
+  top: -10px;
+  left: 2px;
+}
+
+.third{
+  align-self: flex-end;
+  top: -22px;
+  left: -5px;
+}

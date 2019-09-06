@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import "./header.css";
 
+import Logo from "../Logo"
+
 const Header = (props) => {
   return (<header>
-    <div className="brandArea headerDiv">
-      <h1 className="brand">Filthy Casual MMA</h1>
-    </div>
+    <Logo />
     <div className="empty headerDiv"></div>
     <div className="navLinks headerDiv">
       <nav>

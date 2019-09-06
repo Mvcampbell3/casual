@@ -1,6 +1,6 @@
 header{
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr; 
+  grid-template-columns: 200px 2fr 1fr; 
   height: 75px;
   overflow: hidden;
 }
@@ -24,7 +24,7 @@ nav ul li:nth-child(1){
 }
 
 .empty{
-  background-color: black;
+  background: linear-gradient(90deg, darkred, black, black, black, #333);
 }
 
 .brandArea{
@@ -45,6 +45,6 @@ nav ul li:nth-child(1){
 
 @media (max-width: 1000px) {
   header{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 200px 1fr 1fr;
   }
 }
